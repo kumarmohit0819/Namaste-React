@@ -1,0 +1,79 @@
+Q.1 What is NPM?
+Npm is a package manager and it contains all the packages and utilities.
+It does not have any full-form.
+* We can initialize npm using this command :-
+  "npm init"
+
+Q.2 What is Parcel/Webpack? Why do we need it?
+
+
+* Parcel/ Webpack is a bundler which hepls us to create minified, compressed or clean    production ready build.
+* Parcel create compressed build and deploy build to server.
+* We can install parcel using command:-
+ "npm install -D parcel"
+
+Q.3 What is .parcel-cache?
+
+* The .parcel-cache folder contains cache files of build. It means when we create build 1st time it creates some files in .parcel-cache folder then if we again create build it will create faster as compare to first build because it uses caching for creating build.
+
+Q.4 What is npx?
+
+* When we don't want to install dependency on our system but we want to use dependency so npx execute the package .
+
+* npx execute command :-
+
+ "npx packagename source "
+
+Q.5 What is difference between dependencies vs devDependencies?
+
+* Dependencies should contain packages or dependencies that your app is built on and also that dependencies we need on production also.
+
+* DevDependencies should contain that packages which we don't need on production or we can we use devDependencies only for development phase like unit testing, bundler etc
+
+Q.6 What is Tree Shaking?
+
+Tree shaking is process of removing the unwanted code that we do not use while developing the application.
+
+Q.7 What is Hot Module Replacement?
+
+* Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without a full reload.
+example :- if you change something in your file it automatically refects on browser.
+
+Q.8 List down your favorite 5 superpowers of Parcel and describe any 3 of them in your own words.
+
+  a.Dev Build (It creates minified , compressed production ready build).
+
+  b.Local Server (It also deploy our project on Local server after creating build).
+
+  c.HMR = Hot Module Replacement (Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without a full reload.)
+
+  d.File Watching Algorithm - written in c++
+
+  e.Caching - Faster Build
+
+  Q.9 What is .gitignore ? What should we add and not add into it?
+
+  * .gitignore is file that contain folder or file name that we don't want to push on git.
+  * we should not add that folder or files which we can re-generate that files or folder like node_modules , dist , .evn  etc
+
+ Q.10 What is the difference between package.json and package-lock.json?
+
+ * package.json keeps track of what approx version of packages that we are using in our project
+
+ * package-lock.json keeps track exact version of packages that we are using in our project.
+
+ Q.11 What is node_modules ? Is it a good idea to push that on git?
+
+ * node_modules is folder that contain all code of dependencies. Its like a database that store all complete data of package or dependencies we are using in our project.
+
+ * Definetely not a good idea to push node_modules on git because we can re-generate our node_modules (because we have package.json file on git )
+
+Q.12 What is the dist folder?
+
+* dist  folder contains minimul code of our project. Parcel generates development build and hostes to local server so it puts all setup in dist folder.
+
+Q.13 What is browserslist?
+
+* browserslist contain all list which are Compatible or older version of browser.
+
+* we have to create browserslist in package.json.

@@ -1,0 +1,45 @@
+Q.1 What is Emmet ?
+ Emmet generates some code in VS code and makes development easy.
+
+Q.2 Difference between a library and frame work ?
+
+1. Framework contains lots of  library, api, toolkit, compiler to provide the full fledge environment for development of application.
+Example : Angular
+
+1. Library is set of function and class which provide the reusability of code.
+2. Library we can use in between of project and we can use library in some part of project.
+Example : React
+
+Q.3 What is CDN why we use it?
+Ans.CDN full form is content delivery network.
+We use CDN for the fast delivery of our Resources.
+
+Q.4 What is Difference betweem react.development.js and react.production.js files via CDN?
+
+ Production Build has minified, compressed  or bundled version of our code.
+ so this makes rendering of file on end users browser very quick and performance enhancing
+ but development build has more files as compare to production build.
+
+Q.5 What is the Difference between React and ReactDOM ?
+
+=> React :
+React contains core part of library like createElement , Fragements etc
+=> ReactDOM :
+ ReactDOM converts react objects to the browser understandable code that it is HTML not the JS object and also if we want to use portals so ReactDOM provides portals.
+
+Q.6: What is async and defer ?
+
+Async => The async  is an attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed as soon as it is available and don’t wait for anything.
+
+for example : <script src="async.js" async></script>
+
+
+Defer => The defer attribute is a boolean attribute. The script is downloaded in parallel(in the background) to parsing the page, and executed after the page has finished parsing. The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM.
+
+for example : <script src="defer.js" defer></script>
+ 
+Q.7 Why is React known as React?
+
+React is named React because of its ability to changes in data.
+
+React is called React because it was designed to be a declarative, efficient, and flexible JavaScript library for building user interfaces.
