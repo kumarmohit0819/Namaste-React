@@ -1,0 +1,20 @@
+Q.1 What is JSX ?
+
+* JSX is a javascript syntax which is easier to crate react element.
+* JSX is not HTML its like HTML or XML.
+* JSX is not valid pure javascript.
+
+Q.2 Superpower of JSX ?
+ 
+ * JSX provides ease in code to build react applications.
+ * We can run all javascript functions, methods or even react component in JSX.
+ * JSX take care of XSS (cross-site scripting) atack. JSX santize the data and the run it.
+
+ Q.3 Role of Type in script tag?
+
+* Type in script tag tells us which kind of script it is.
+
+Q4. {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX ?
+
+* These two {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} are the ways by we can execute our component but this is {TitleComponent}  we can execute a variable or function name which declare with the name of TitleComponent. 
+* {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} we can use these two according to the situation.
