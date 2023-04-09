@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react/client";
-import "../../index.css";
+import "./assignment.css";
 import logo from "../../assets/india.png";
-import userLogo from '../../assets/user.png'
+import userIcon from '../../assets/user.png'
 // Q 1: Create a Nested header Element using React.createElement(h1,h2,h3 inside a div with class "title")
 
 // const header = React.createElement("div", { class: "title" }, [
@@ -112,3 +112,8 @@ const HeaderComponent = () => {
     </>
   );
 };
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<HeaderComponent />);

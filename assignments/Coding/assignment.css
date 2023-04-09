@@ -1,0 +1,37 @@
+#heading {
+    color: red;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 138, 237);
+    width: auto;
+  }
+
+  .center .search {
+    width: 400px;
+    border-radius: 10px;
+    padding: 11px;
+  }
+  .center .button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #10d354;
+    color: white;
+    padding: 0.75rem 2rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+
+  .right {
+    margin-right: 40px;
+  }
+  .right img {
+    width: 50px;
+    margin: 10px 20px 0 0;
+    cursor: pointer;
+  }

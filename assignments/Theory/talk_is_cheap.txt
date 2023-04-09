@@ -1,0 +1,39 @@
+Q.1 Is JSX mandatory for React?
+
+* No, it is not mandatory because we can create react element by using react only like React.createElement(). So creating web page we don't need JSX but it's recommended.
+
+Q.2 Is JSX mandatory for React?
+ 
+ * No. it is not mandatory because we can use es5 feature to reach our expectation in react like we can use normal javascript function to create functional component.
+ 
+ Q.3 {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX.
+
+* These two {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} are the ways by we can execute our component but this is {TitleComponent}  we can execute a variable or function name which declare with the name of TitleComponent. 
+* {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} we can use these two according to the situation.
+
+Q.4: How can I write comments in JSX?
+
+*  {/*  */} - for single or multiline comments
+
+Q.5 What is <React.Fragment></React.Fragment> and <></>?
+
+* <React.Fragment></React.Fragment>  is a feature in React that allows you to return multiple elements from a React component
+* <></> this is another way to write react Fragment
+
+Q.6 Why do we need keys in React?
+
+* We need react keys because it prevents re-rendering of all childrens.If we will not provide keys to the child so react will not understand which child is new so it re-render all the childerens, So it will take big performance hit.
+
+Q.7 Can we use index as keys in React?
+
+Yes, we can use index as keys but its not recommended. We should use unique ids to the childerens.
+
+Q.8  What is props in React? Ways to.
+
+* Props stand for properties. props are the properties that we can pass as an attribute to the component. It similar with function with arguement.
+
+Q.9 What is Config Driven UI?
+
+* Config Driven UI means the UI which change according to the data coming from backend.
+It help to build production ready applications.
+
